@@ -1,9 +1,0 @@
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/uninstall.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/avu_description_uninstall.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/test.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/edit_cache.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/rebuild_cache.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/list_install_components.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/install.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/install/local.dir
-/home/bhavin-avina/avu_robot/build/avu_description/CMakeFiles/install/strip.dir
