@@ -1,5 +1,0 @@
-[0.033s] Invoking command in '/home/bhavin-avina/avu_robot/build/moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/moveit2 -- -j4 -l4
-[0.056s] [0mCMake Error: The source directory "/home/bhavin-avina/avu_robot/src/moveit2" does not exist.
-[0.056s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.057s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.059s] Invoked command in '/home/bhavin-avina/avu_robot/build/moveit2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/moveit2 -- -j4 -l4
