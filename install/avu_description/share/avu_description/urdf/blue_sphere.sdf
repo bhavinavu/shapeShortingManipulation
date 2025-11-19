@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="blue_sphere">
+    <static>false</static>
+
+    <link name="sphere_link">
+
+      <!-- Inertial properties -->
+      <inertial>
+        <!-- Mass of a solid sphere: m = (4/3)*π*r³*ρ -->
+        <mass>0.00418879</mass> <!-- ≈ 4.19 g -->
+        <inertia>
+          <!-- Moments for solid sphere: I = 2/5 * m * r² -->
+          <ixx>9.4247e-07</ixx>
+          <iyy>9.4247e-07</iyy>
+          <izz>9.4247e-07</izz>
+        </inertia>
+      </inertial>
+
+      <!-- Visual -->
+      <visual name="sphere_visual">
+        <geometry>
+          <sphere>
+            <radius>0.015</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>
+          <diffuse>0 0 1 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+      </visual>
+
+      <!-- Collision -->
+      <collision name="sphere_collision">
+        <geometry>
+          <sphere>
+            <radius>0.015</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1000000000000000.0</mu>
+              <mu2>1000000000000000.0</mu2>
+            </ode>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0.1</restitution_coefficient>
+            <threshold>1.0</threshold>
+          </bounce>
+        </surface>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

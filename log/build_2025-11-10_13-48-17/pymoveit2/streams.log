@@ -1,0 +1,59 @@
+[0.023s] Invoking command in '/home/bhavin-avina/avu_robot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/pymoveit2 -- -j4 -l4
+[0.066s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.860s] -- Configuring done (0.8s)
+[0.869s] -- Generating done (0.0s)
+[0.874s] -- Build files have been written to: /home/bhavin-avina/avu_robot/build/pymoveit2
+[0.931s] Built target ament_cmake_python_copy_pymoveit2
+[1.307s] running egg_info
+[1.346s] writing pymoveit2.egg-info/PKG-INFO
+[1.346s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[1.347s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[1.459s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.460s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[1.523s] Built target ament_cmake_python_build_pymoveit2_egg
+[1.538s] Invoked command in '/home/bhavin-avina/avu_robot/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/pymoveit2 -- -j4 -l4
+[1.540s] Invoking command in '/home/bhavin-avina/avu_robot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/pymoveit2
+[1.553s] -- Install configuration: ""
+[1.554s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[1.554s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[1.554s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info
+[1.554s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/dependency_links.txt
+[1.554s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/top_level.txt
+[1.554s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/SOURCES.txt
+[1.554s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/PKG-INFO
+[1.554s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2
+[1.554s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/utils.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/__init__.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_servo.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_gripper.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_command.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2.py
+[1.555s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots
+[1.558s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/kinova.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/lbr.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/__init__.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/panda.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/ur.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/crane_x7.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/phantomx_pincher.py
+[1.559s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_interface.py
+[1.609s] Listing '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2'...
+[1.609s] Listing '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots'...
+[1.621s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/pymoveit2/pick_and_place.py
+[1.621s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/lib/pymoveit2/throttle_node.py
+[1.621s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[1.621s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[1.621s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[1.621s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[1.622s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/path.sh
+[1.623s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[1.623s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/local_setup.bash
+[1.623s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/local_setup.sh
+[1.624s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[1.624s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[1.624s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.dsv
+[1.624s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[1.625s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[1.625s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[1.625s] -- Installing: /home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.xml
+[1.625s] Invoked command in '/home/bhavin-avina/avu_robot/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/pymoveit2

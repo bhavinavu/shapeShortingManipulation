@@ -1,0 +1,601 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b3565da6540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b3565da5e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b3565da5e80>>, mixin_verb=('build',))
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bhavin-avina/avu_robot'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_61) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_62) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_63) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_64) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_65) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_66) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_67) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_68) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_69) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_70) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'ros'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['cmake', 'python']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'cmake'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'python'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extensions ['python_setup_py']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_71) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_72) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_73) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_74) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_75) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_76) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_77) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(episode_data/episode_78) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_controller) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/avu_controller' with type 'ros.ament_cmake' and name 'avu_controller'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_description) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/avu_description' with type 'ros.ament_cmake' and name 'avu_description'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/avu_moveit) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/avu_moveit' with type 'ros.ament_cmake' and name 'avu_moveit'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/pymoveit2) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/bhavin-avina/avu_robot/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 485 installed packages in /opt/ros/jazzy
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'avu_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'avu_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavin-avina/avu_robot/build/avu_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavin-avina/avu_robot/install/avu_description', 'merge_install': False, 'path': '/home/bhavin-avina/avu_robot/src/avu_description', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavin-avina/avu_robot/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavin-avina/avu_robot/install/pymoveit2', 'merge_install': False, 'path': '/home/bhavin-avina/avu_robot/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'avu_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavin-avina/avu_robot/build/avu_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavin-avina/avu_robot/install/avu_controller', 'merge_install': False, 'path': '/home/bhavin-avina/avu_robot/src/avu_controller', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'avu_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'avu_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavin-avina/avu_robot/build/avu_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavin-avina/avu_robot/install/avu_moveit', 'merge_install': False, 'path': '/home/bhavin-avina/avu_robot/src/avu_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.395s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavin-avina/avu_robot/src/avu_description' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavin-avina/avu_robot/src/avu_description'
+[0.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavin-avina/avu_robot/src/pymoveit2' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavin-avina/avu_robot/src/pymoveit2'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_description -- -j4 -l4
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/pymoveit2 -- -j4 -l4
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_description -- -j4 -l4
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_description
+[0.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_description)
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description' for CMake module files
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description' for CMake config files
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_description', 'cmake_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.sh'
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_description
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/bin'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/lib/pkgconfig/avu_description.pc'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/lib/python3.12/site-packages'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.sh'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.zsh'
+[0.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_description/share/colcon-core/packages/avu_description)
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_description)
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description' for CMake module files
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description' for CMake config files
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_description', 'cmake_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/lib/pkgconfig/avu_description.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/lib/python3.12/site-packages'
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_description/bin'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.bash'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_description/share/colcon-core/packages/avu_description)
+[0.517s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavin-avina/avu_robot/src/avu_controller' with build type 'ament_cmake'
+[0.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavin-avina/avu_robot/src/avu_controller'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavin-avina/avu_robot/src/avu_moveit' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavin-avina/avu_robot/src/avu_moveit'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_controller': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_controller -- -j4 -l4
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_moveit': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_moveit -- -j4 -l4
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_controller' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_controller -- -j4 -l4
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_controller': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_controller
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_controller)
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller' for CMake module files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller' for CMake config files
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_controller', 'cmake_prefix_path')
+[0.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_controller' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_controller
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.sh'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/bin'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/lib/pkgconfig/avu_controller.pc'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/lib/python3.12/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.zsh'
+[0.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_controller/share/colcon-core/packages/avu_controller)
+[0.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_controller)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller' for CMake module files
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller' for CMake config files
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_controller', 'cmake_prefix_path')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/bin'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/lib/pkgconfig/avu_controller.pc'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/lib/python3.12/site-packages'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_controller/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.sh'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.bash'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.zsh'
+[0.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_controller/share/colcon-core/packages/avu_controller)
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_moveit' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_moveit -- -j4 -l4
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/avu_moveit': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_moveit
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_moveit)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit' for CMake module files
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/avu_moveit' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/pymoveit2:/home/bhavin-avina/avu_robot/install/moveit2:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_moveit
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit' for CMake config files
+[0.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_moveit', 'cmake_prefix_path')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.sh'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/bin'
+[0.652s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/lib/pkgconfig/avu_moveit.pc'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/lib/python3.12/site-packages'
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/bin'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.ps1'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.bash'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.zsh'
+[0.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_moveit/share/colcon-core/packages/avu_moveit)
+[0.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(avu_moveit)
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit' for CMake module files
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit' for CMake config files
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('avu_moveit', 'cmake_prefix_path')
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/hook/cmake_prefix_path.sh'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/bin'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/lib/pkgconfig/avu_moveit.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/lib/python3.12/site-packages'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/avu_moveit/bin'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.sh'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.bash'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.zsh'
+[0.664s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/avu_moveit/share/colcon-core/packages/avu_moveit)
+[1.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/pymoveit2 -- -j4 -l4
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavin-avina/avu_robot/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/pymoveit2
+[1.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2' for CMake module files
+[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavin-avina/avu_robot/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/pymoveit2
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2' for CMake config files
+[1.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/bin'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages'
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'pythonpath')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/bin'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.bash'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[1.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2' for CMake module files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2' for CMake config files
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/bin'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/lib/python3.12/site-packages'
+[1.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'pythonpath')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/hook/pythonpath.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/bhavin-avina/avu_robot/install/pymoveit2/bin'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavin-avina/avu_robot/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavin-avina/avu_robot/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[1.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.146s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.154s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.173s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.174s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavin-avina/avu_robot/install/local_setup.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhavin-avina/avu_robot/install/_local_setup_util_ps1.py'
+[1.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavin-avina/avu_robot/install/setup.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavin-avina/avu_robot/install/local_setup.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhavin-avina/avu_robot/install/_local_setup_util_sh.py'
+[1.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavin-avina/avu_robot/install/setup.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavin-avina/avu_robot/install/local_setup.bash'
+[1.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavin-avina/avu_robot/install/setup.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavin-avina/avu_robot/install/local_setup.zsh'
+[1.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavin-avina/avu_robot/install/setup.zsh'

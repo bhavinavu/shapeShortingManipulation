@@ -1,0 +1,79 @@
+[0.019s] Invoking command in '/home/bhavin-avina/avu_robot/build/avu_moveit': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/home/bhavin-avina/mobile_robot/install/human_simulator:/home/bhavin-avina/mobile_robot/install/amr_slam:/home/bhavin-avina/mobile_robot/install/amr_perception:/home/bhavin-avina/mobile_robot/install/amr_drl_navigation:/home/bhavin-avina/mobile_robot/install/amr_description:/home/bhavin-avina/mobile_robot/install/amr_controller:/home/bhavin-avina/automation_ws/install/conveyor_belt:/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs:/home/bhavin-avina/automation_ws/install/conveyorbelt_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_moveit -- -j4 -l4
+[0.100s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.422s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[0.541s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.068s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.120s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.190s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.194s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.413s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.468s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.540s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.754s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.821s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.857s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.914s] -- Found moveit_kinematics: 2.12.3 (/opt/ros/jazzy/share/moveit_kinematics/cmake)
+[1.918s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[1.942s] -- Found moveit_planners_ompl: 2.12.3 (/opt/ros/jazzy/share/moveit_planners_ompl/cmake)
+[1.962s] -- Found moveit_ros_visualization: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_visualization/cmake)
+[1.968s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+[2.035s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.038s] -- Found OGRE
+[2.038s] --   static     : OFF
+[2.039s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.039s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.039s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.039s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.039s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[2.039s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.039s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[2.040s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.040s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.040s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.040s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.226s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.389s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/jazzy/share/rviz_visual_tools/cmake)
+[2.426s] -- Found moveit_servo: 2.12.3 (/opt/ros/jazzy/share/moveit_servo/cmake)
+[2.542s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.685s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.686s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.686s] -- Added test 'lint_cmake' to check CMake code style
+[2.687s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.689s] -- Added test 'xmllint' to check XML markup files
+[2.691s] -- Configuring done (2.6s)
+[2.706s] -- Generating done (0.0s)
+[2.711s] -- Build files have been written to: /home/bhavin-avina/avu_robot/build/avu_moveit
+[2.752s] Invoked command in '/home/bhavin-avina/avu_robot/build/avu_moveit' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/home/bhavin-avina/mobile_robot/install/human_simulator:/home/bhavin-avina/mobile_robot/install/amr_slam:/home/bhavin-avina/mobile_robot/install/amr_perception:/home/bhavin-avina/mobile_robot/install/amr_drl_navigation:/home/bhavin-avina/mobile_robot/install/amr_description:/home/bhavin-avina/mobile_robot/install/amr_controller:/home/bhavin-avina/automation_ws/install/conveyor_belt:/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs:/home/bhavin-avina/automation_ws/install/conveyorbelt_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_moveit -- -j4 -l4
+[2.754s] Invoking command in '/home/bhavin-avina/avu_robot/build/avu_moveit': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/home/bhavin-avina/mobile_robot/install/human_simulator:/home/bhavin-avina/mobile_robot/install/amr_slam:/home/bhavin-avina/mobile_robot/install/amr_perception:/home/bhavin-avina/mobile_robot/install/amr_drl_navigation:/home/bhavin-avina/mobile_robot/install/amr_description:/home/bhavin-avina/mobile_robot/install/amr_controller:/home/bhavin-avina/automation_ws/install/conveyor_belt:/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs:/home/bhavin-avina/automation_ws/install/conveyorbelt_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_moveit
+[2.766s] -- Install configuration: ""
+[2.766s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/launch
+[2.767s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/launch/moveit.launch.py
+[2.767s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config
+[2.767s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/servo_config.yaml
+[2.767s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/pilz_cartesian_limits.yaml
+[2.767s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/moveit_controllers.yaml
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/joint_limits.yaml
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/avu.srdf
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/kinematics.yaml
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/config/initial_positions.yaml
+[2.768s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_moveit/share/ament_index/resource_index/package_run_dependencies/avu_moveit
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/ament_index/resource_index/parent_prefix_path/avu_moveit
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/environment/ament_prefix_path.sh
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/environment/ament_prefix_path.dsv
+[2.768s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/environment/path.sh
+[2.769s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/environment/path.dsv
+[2.769s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/local_setup.bash
+[2.769s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/local_setup.sh
+[2.769s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/local_setup.zsh
+[2.769s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/local_setup.dsv
+[2.770s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.dsv
+[2.771s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/ament_index/resource_index/packages/avu_moveit
+[2.771s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/cmake/avu_moveitConfig.cmake
+[2.771s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/cmake/avu_moveitConfig-version.cmake
+[2.772s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_moveit/share/avu_moveit/package.xml
+[2.772s] Invoked command in '/home/bhavin-avina/avu_robot/build/avu_moveit' returned '0': CMAKE_PREFIX_PATH=/home/bhavin-avina/avu_robot/install/avu_description:/home/bhavin-avina/avu_robot/install/avu_moveit:/home/bhavin-avina/avu_robot/install/avu_controller:/home/bhavin-avina/mobile_robot/install/human_simulator:/home/bhavin-avina/mobile_robot/install/amr_slam:/home/bhavin-avina/mobile_robot/install/amr_perception:/home/bhavin-avina/mobile_robot/install/amr_drl_navigation:/home/bhavin-avina/mobile_robot/install/amr_description:/home/bhavin-avina/mobile_robot/install/amr_controller:/home/bhavin-avina/automation_ws/install/conveyor_belt:/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs:/home/bhavin-avina/automation_ws/install/conveyorbelt_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_moveit

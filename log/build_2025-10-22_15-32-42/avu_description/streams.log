@@ -1,0 +1,60 @@
+[0.021s] Invoking command in '/home/bhavin-avina/avu_robot/build/avu_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_description -- -j4 -l4
+[0.079s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.394s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.541s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.541s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.543s] -- Added test 'lint_cmake' to check CMake code style
+[0.545s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.551s] -- Added test 'xmllint' to check XML markup files
+[0.555s] -- Configuring done (0.5s)
+[0.566s] -- Generating done (0.0s)
+[0.569s] -- Build files have been written to: /home/bhavin-avina/avu_robot/build/avu_description
+[0.599s] Invoked command in '/home/bhavin-avina/avu_robot/build/avu_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bhavin-avina/avu_robot/build/avu_description -- -j4 -l4
+[0.613s] Invoking command in '/home/bhavin-avina/avu_robot/build/avu_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_description
+[0.630s] -- Install configuration: ""
+[0.630s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/launch
+[0.630s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/launch/gazebo.launch.py
+[0.631s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/launch/display.launch.py
+[0.631s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes
+[0.631s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link4.dae
+[0.632s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link3.dae
+[0.632s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link3.png
+[0.632s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link7.dae
+[0.632s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_right1.dae
+[0.633s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link1.png
+[0.633s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link6.png
+[0.633s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_left3.dae
+[0.634s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link2.dae
+[0.634s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_right3.dae
+[0.634s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_base.dae
+[0.634s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link4.png
+[0.634s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_right2.dae
+[0.635s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link1.dae
+[0.635s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link5.dae
+[0.635s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_left1.dae
+[0.635s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link6.dae
+[0.635s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link5.png
+[0.636s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link7.png
+[0.636s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/link2.png
+[0.636s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/base_link.dae
+[0.637s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/meshes/gripper_left2.dae
+[0.637s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/urdf
+[0.637s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/urdf/avu_gazebo.xacro
+[0.637s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/urdf/avu.urdf.xacro
+[0.637s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/urdf/avu_ros_control.xacro
+[0.638s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/ament_index/resource_index/package_run_dependencies/avu_description
+[0.638s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/ament_index/resource_index/parent_prefix_path/avu_description
+[0.638s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/environment/ament_prefix_path.sh
+[0.638s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/environment/ament_prefix_path.dsv
+[0.638s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/environment/path.sh
+[0.639s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/environment/path.dsv
+[0.639s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/local_setup.bash
+[0.639s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/local_setup.sh
+[0.640s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/local_setup.zsh
+[0.640s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/local_setup.dsv
+[0.640s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.dsv
+[0.640s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/ament_index/resource_index/packages/avu_description
+[0.640s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/cmake/avu_descriptionConfig.cmake
+[0.641s] -- Up-to-date: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/cmake/avu_descriptionConfig-version.cmake
+[0.641s] -- Installing: /home/bhavin-avina/avu_robot/install/avu_description/share/avu_description/package.xml
+[0.641s] Invoked command in '/home/bhavin-avina/avu_robot/build/avu_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bhavin-avina/avu_robot/build/avu_description

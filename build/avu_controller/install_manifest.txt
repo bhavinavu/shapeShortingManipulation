@@ -1,0 +1,17 @@
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/launch/controller.launch.py
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/config/avu_controllers.yaml
+/home/bhavin-avina/avu_robot/install/avu_controller/share/ament_index/resource_index/package_run_dependencies/avu_controller
+/home/bhavin-avina/avu_robot/install/avu_controller/share/ament_index/resource_index/parent_prefix_path/avu_controller
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/environment/ament_prefix_path.sh
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/environment/ament_prefix_path.dsv
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/environment/path.sh
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/environment/path.dsv
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/local_setup.bash
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/local_setup.sh
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/local_setup.zsh
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/local_setup.dsv
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.dsv
+/home/bhavin-avina/avu_robot/install/avu_controller/share/ament_index/resource_index/packages/avu_controller
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/cmake/avu_controllerConfig.cmake
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/cmake/avu_controllerConfig-version.cmake
+/home/bhavin-avina/avu_robot/install/avu_controller/share/avu_controller/package.xml

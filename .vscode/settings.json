@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bhavin-avina/mobile_robot/install/human_simulator/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_slam/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_perception/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_drl_navigation/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_controller/lib/python3.12/site-packages",
+        "/home/bhavin-avina/automation_ws/install/conveyor_belt/lib/python3.12/site-packages",
+        "/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bhavin-avina/mobile_robot/install/human_simulator/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_slam/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_perception/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_drl_navigation/lib/python3.12/site-packages",
+        "/home/bhavin-avina/mobile_robot/install/amr_controller/lib/python3.12/site-packages",
+        "/home/bhavin-avina/automation_ws/install/conveyor_belt/lib/python3.12/site-packages",
+        "/home/bhavin-avina/automation_ws/install/conveyorbelt_msgs/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
